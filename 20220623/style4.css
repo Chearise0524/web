@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+}
+
+.box1{
+    background-color: bisque;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+
+.box2{
+    background-color: cadetblue;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+
+.box3{
+    background-color: coral;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+}
+
+.box4{
+    background-color: brown;
+    height: 200px;
+}
+
+.boxA:after{
+    content: "";
+    display: block;
+    clear: both;
+}
