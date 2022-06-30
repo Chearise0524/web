@@ -11,15 +11,11 @@ body{
 .box1{
     background-color: brown;
     height: 200px;
-    width: 40%;
-    float: left;
 }
 
 .box2{
     background-color: beige;
     height: 200px;
-    width: 60%;
-    float: left;
 }
 
 .box3{
@@ -30,13 +26,38 @@ body{
 .box4{
     background-color: lemonchiffon;
     height: 200px;
-    width: 50%;
-    float: left;
 }
 
 .box5{
     background-color: darkcyan;
     height: 200px;
-    width: 50%;
-    float: left;
+}
+@media (min-width:768px){
+    
+    .box1{
+        width: 40%;
+        float: left;
+    }
+
+    .box2{
+        width: 60%;
+        float: left;
+    }
+
+    .box4{
+        width: 50%;
+        float: left;
+    }
+
+    .box5{
+        width: 50%;
+        float: left;
+    }
+
+    .boxA:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
 }
