@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p1.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="logo">
+        <h1>
+            <img src="logo.gif" alt="" width="200px" height="200">
+        </h1>
+    </div>
+
+    <div class="about">
+        <h2>Profile</h2>
+            <p>ヒューマンアカデミー東京校 デザインカレッジ グラフィックデザイン専攻<br>
+            富澤拓哉です。</p>
+    </div>
+    
+    <div class="works">
+        <h2>作品</h2>
+        <br><p>自分の作った作品集です。 <br>
+             画像をクリックするとサイズが大きくなります</p> <br>
+            <!--ここに画像のhtmlを入れる-->
+            <div class="photoBox">
+                <div class="photo">
+                    <a href="Logo.jpg" data-fancybox="gallery">
+                        <img src="Logo.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="photo">
+                    <a href="tote1.jpg"data-fancybox="gallery">
+                        <img src="tote1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="photo">
+                    <a href="tote2.jpg"data-fancybox="gallery">
+                        <img src="tote2.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    
+    <div class="twitter">
+        <h2>Twitter</h2>
+            <a class="twitter-timeline" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/Chearise_?ref_src=twsrc%5Etfw">Tweets by Chearise_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </div>
+    
+    <div class="contact">
+        <h2>コンタクト</h2>
+            <p>お問い合わせはメールにて　<br>
+            Chear.ise2999@gmail.com <br>
+            までご連絡ください</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js">
+    </script>
+    <script>
+    Fancybox.bind("[data-fancybox]", {});
+    </script>
+</div>
+</html>
